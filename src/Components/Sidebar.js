@@ -19,13 +19,21 @@ const Sidebar = (props) => {
                             <ul>
                                 <li className="active"><a href="#intro" data-nav-section="home">Introducción</a></li>
                                 <li><a href="#about" data-nav-section="about">Acerca de Mi</a></li>
+                                <li><a href="#education" data-nav-section="education">Educación</a></li>
                                 <li><a href="#projects" data-nav-section="projects">Proyectos</a></li>
-                                <li><a href="https://twitter.com/_CarlosXavier98" target="_blank" rel="noopener noreferrer"><i className="icon-twitter" />Twitter</a></li>
-                                <li><a href="https://www.linkedin.com/in/carlos-xavier-carvajal-villegas-b7ba561a2" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin" />Linkedin</a></li>
-                                <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i>Github</a></li>
+                                <li><a href="#logros" data-nav-section="achievements">Logros</a></li>
                             </ul>
                         </div>
                     </nav>
+                    <aside id="social-aside">
+                    <nav id="social-menu" className="socialNavbar">
+                        <ul>
+                        <li><a href="https://twitter.com/_CarlosXavier98" target="_blank" rel="noopener noreferrer"><i className="icon-twitter" />Twitter</a></li>
+                        <li><a href="https://www.linkedin.com/in/carlos-xavier-carvajal-villegas-b7ba561a2" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin" />Linkedin</a></li>
+                        <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i>Github</a></li>
+                        </ul>
+                    </nav>
+                    </aside>
                     <div className="footer">
                         <p>cxcarvaj@gmail.com</p>
                     </div>

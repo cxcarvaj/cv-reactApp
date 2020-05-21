@@ -5,7 +5,11 @@ const Education = () => {
     <div>
       <section className="education" data-section="education">
         <div className="row">
-          <h2 className="heading-education">Educación</h2>
+          <h2 className="heading-education">Education
+          <div>
+            <span className="sub-heading-education">Academic Career</span>
+            </div>
+          </h2>
         </div>
         <div className="wraper">
           <div className="education-centered">
@@ -37,13 +41,14 @@ const Education = () => {
                 <div className="education-label">
                   <h2>Ingeniería en Ciencias Computacionales / Computer Science<div><span>Escuela Superior Politécnica del Litoral | 2017-En curso</span></div></h2>
                   <ul>
-                    <li>Beca de Distinción Académica IT 2017-2018.</li>
-                    <li>Fundamentos de Programación (Python).</li>
-                    <li>Programación Orientada a Objetos ( Java).</li>
-                    <li>Sistemas de Bases de Datos.</li>
-                    <li>Estructura de Datos (Java).</li>
-                    <li>Estadística Descriptiva e Inferencial. • Programación de Sistemas (C).</li>
-                    <li>Diseño de Software.</li>
+                    <li>Academic Distinction Scholarship 2017-2018.</li>
+                    <li>Programming Fundamentals (Python).</li>
+                    <li>Object-Oriented Programming (Java).</li>
+                    <li>Database Systems (MySQL).</li>
+                    <li>Data Structure (Java).</li>
+                    <li>Descriptive and Inferential Statistics.</li>
+                    <li>Systems Programming (C).</li>
+                    <li>Software Design.</li>
                   </ul>
                 </div>
               </div>

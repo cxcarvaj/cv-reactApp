@@ -1,6 +1,7 @@
 import React from 'react';
 import Sidebar from './Components/Sidebar'
 import Education from './Components/Education'
+import AboutMe from './Components/AboutMe'
 
 
 
@@ -10,6 +11,7 @@ function App() {
       <header className="App-header">
         <Sidebar/>
         <Education/>
+        <AboutMe/>
       </header>
       <body>
       </body>

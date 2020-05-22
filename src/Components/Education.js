@@ -7,7 +7,7 @@ const Education = () => {
         <div className="row">
           <h2 className="heading-education">Education
           <div>
-            <span className="sub-heading-education">Academic Career</span>
+              <span className="sub-heading-education">Academic Career</span>
             </div>
           </h2>
         </div>
@@ -16,7 +16,7 @@ const Education = () => {
             <article className="education-entry-box">
               <div className="education-entry-inner">
                 <div className="education-icon color-1">
-                  <i className="icon-boo" />
+                  <i className="icon-book" />
                 </div>
                 <div className="education-label">
                   <h2>Bachiller en Ciencias con especialidad en Físico Matemáticas
@@ -74,6 +74,49 @@ const Education = () => {
           </div>
         </div>
       </section>
+      <div>
+        <section className="about-me-section" data-section="aboutMe">
+          <div className="row">
+            <h2 className="heading-aboutMe">Certificates & Courses</h2>
+            <div className="wraper">
+              <div className="grid-container">
+                <article className="about-entry-box">
+                  <div className="about-entry-inner">
+                    <div className="about-label">
+                      <div className="competency-icon1">
+                        <i className="icon-about-1" />
+                        <h4>Certificates</h4>
+                      </div>
+                      <ul>
+                        <li>ECCE Certification B2-CEFR.</li>
+                        <li>Introduction to Web Development (HTML, CSS, Js, React.js) - Google Activate</li>
+                        <li>Certificate of having completed the 18 levels of English at CEN</li>
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+                <article className="about-entry-box">
+                  <div className="about-entry-inner">
+                    <div className="about-label">
+                      <div className="competency-icon1">
+                        <i className="icon-about-2" />
+                        <h4>Courses</h4>
+                      </div>
+                      <ul>
+                        <li>Centro Ecuatoriano Norteamericano - Regular Program.</li>
+                        <li>Centro Ecuatoriano Norteamericano - ECCE Preparation B2-CEFR Certification</li>
+                        <li>MOOC ESPOL of Digital Collaboration Tools.</li>
+                        <li>Machine Learning: Data Science in Python - Udemy.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div >
     </div>
   )
 }

@@ -12,16 +12,15 @@ const Sidebar = (props) => {
                         {/* <div className="profile-img"/> */}
                         {/* <div className="author-img" style={{ backgroundImage: `url(${me})` }} /> */}
                         <div className="profile-img"><img className="profile-pic" src={me} alt="profile"></img></div>
-                        <h1 id="name"><a href="index.html">Carlos Carvajal</a></h1>
+                        <h1 id="name"><a href="/">Carlos Carvajal</a></h1>
                     </div>
                     <nav id="main-menu" role="navigation" className="navbar">
                         <div id="navbar" className="collapse">
                             <ul>
-                                <li className="active"><a href="#intro" data-nav-section="home">Introducción</a></li>
-                                <li><a href="#about" data-nav-section="about">Acerca de Mi</a></li>
-                                <li><a href="#education" data-nav-section="education">Educación</a></li>
-                                <li><a href="#projects" data-nav-section="projects">Proyectos</a></li>
-                                <li><a href="#logros" data-nav-section="achievements">Logros</a></li>
+                                <li className="active"><a href="/AboutMe">About Me</a></li>
+                                <li><a href="/Education">Education</a></li>
+                                <li><a href="/Projects">Projects</a></li>
+                                <li><a href="/Achievements">Achievements</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -30,7 +29,7 @@ const Sidebar = (props) => {
                         <ul>
                         <li><a href="https://twitter.com/_CarlosXavier98" target="_blank" rel="noopener noreferrer"><i className="icon-twitter" />Twitter</a></li>
                         <li><a href="https://www.linkedin.com/in/carlos-xavier-carvajal-villegas-b7ba561a2" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin" />Linkedin</a></li>
-                        <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i>Github</a></li>
+                        <li><a href="https://github.com/cxcarvaj" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i>Github</a></li>
                         </ul>
                     </nav>
                     </aside>

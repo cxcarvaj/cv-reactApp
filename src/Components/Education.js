@@ -19,7 +19,7 @@ const Education = () => {
                   <i className="icon-book" />
                 </div>
                 <div className="education-label">
-                  <h2>Bachiller en Ciencias con especialidad en Físico Matemáticas
+                  <h2>Bachelor of Science with a specialty in Mathematical Physicist
                     <div>
                       <span>Academia Naval Almirante Illingworth | 2016</span>
                     </div>

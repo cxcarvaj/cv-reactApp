@@ -43,8 +43,8 @@ const AboutMe = () => {
                                             <h4>Languages</h4>
                                         </div>
                                         <ul>
-                                            <li>Español Nivel Avanzado.</li>
-                                            <li>Ingles Nivel Avanzado.</li>
+                                            <li>Native Spanish.</li>
+                                            <li>English Advanced Level.</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -58,7 +58,7 @@ const AboutMe = () => {
                                         </div>
                                         <ul>
                                             <li>Dra. Cármen Vaca</li>
-                                            <dd>PhD in Information Technology and Professor at FIEC ESPOL.</dd>
+                                            <dd>PhD in Information Technology <br/> and Professor at FIEC ESPOL.</dd>
                                             <dd><strong>Contact:</strong> cvacaec.espol.edu.ec</dd>
                                             <dd><strong>Relationshop:</strong>TAWS Club Mentor</dd>
                                             <li>Ing. Xavier Idrovo</li>
@@ -68,7 +68,7 @@ const AboutMe = () => {
                                             <li>Ing. Madelyne Velasco</li>
                                             <dd>Head of Technologies at Hermaprove S.A</dd>
                                             <dd><strong>Contact:</strong> mvelascoespol.edu.ec</dd>
-                                            <dd><strong>Relationshop:</strong> Director of the "DataJam" Event.</dd>
+                                            <dd><strong>Relationshop:</strong> Director of <br/> the "DataJam" Event.</dd>
                                         </ul>
                                     </div>
                                 </div>

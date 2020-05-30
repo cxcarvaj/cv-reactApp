@@ -58,17 +58,10 @@ const Education = () => {
                 <div className="education-icon color-3">
                   <i className="icon-book" />
                 </div>
-                <div className="education-label">
-                  <h2>Further Education
-                    <div><span>2022-Future...</span></div>
-                  </h2>
-                </div>
               </div>
             </article>
             <article className="education-entry-box">
               <div className="education-entry-inner">
-                <div className="education-icon color-none">
-                </div>
               </div>
             </article>
           </div>
